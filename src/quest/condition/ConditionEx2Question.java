@@ -1,6 +1,6 @@
 package quest.condition;
 
-public class CondtionEx2Question {
+public class ConditionEx2Question {
     public static void main(String[] args) {
         /*
         문제: "거리에 따른 운송 수단 선택하기"
