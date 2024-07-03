@@ -1,4 +1,4 @@
-package quest;
+package quest.condition;
 
 public class ConditionEx6Question {
     /*

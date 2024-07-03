@@ -1,4 +1,4 @@
-package quest;
+package quest.operator;
 
 public class OperatorEx3Question {
     public static void main(String[] args) {

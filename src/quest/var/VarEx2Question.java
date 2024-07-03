@@ -1,4 +1,4 @@
-package quest;
+package quest.var;
 
 public class VarEx2Question {
     /*

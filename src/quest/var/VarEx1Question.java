@@ -1,4 +1,4 @@
-package quest;
+package quest.var;
 
 public class VarEx1Question {
     // 다음 코드에 반복해서 나오는 숫자 4 , 3 을 다른 숫자로 한번에 변경할 수 있도록
