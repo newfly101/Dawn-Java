@@ -14,5 +14,13 @@ public class Scanner2 {
         
         int sum = num1 + num2;
         System.out.println("sum = " + sum);
+
+        if (num1 > num2) {
+            System.out.println("더 큰 숫자: " + num1);
+        } else if (num2 > num1) {
+            System.out.println("더 큰 숫자: " + num2);
+        } else {
+            System.out.println("두 숫자는 같습니다.");
+        }
     }
 }
