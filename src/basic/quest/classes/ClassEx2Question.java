@@ -1,4 +1,4 @@
-package basic.quest;
+package basic.quest.classes;
 
 public class ClassEx2Question {
     //문제 설명

@@ -1,4 +1,4 @@
-package basic.quest;
+package basic.quest.classes;
 
 public class ClassEx3Question {
     //문제: 상품 주문 시스템 개발
