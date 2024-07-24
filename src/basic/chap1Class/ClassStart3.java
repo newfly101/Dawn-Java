@@ -15,7 +15,8 @@ public class ClassStart3 {
         Student[] student = new Student[]{s1, s2};
 
         for (int i = 0; i < student.length; i++) {
-            System.out.println("이름: " + student[i].name + " 나이: " + student[i].age + " 성적: " + student[i].grade);
+            Student s = student[i];
+            System.out.println("이름: " + s.name + " 나이: " + s.age + " 성적: " + s.grade);
         }
     }
 }
