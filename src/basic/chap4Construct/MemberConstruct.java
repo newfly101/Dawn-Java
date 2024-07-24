@@ -5,11 +5,11 @@ public class MemberConstruct {
     int age;
     int grade;
 
+
     // 메서드 오버로딩 처럼 매개변수만 다르게 해서 여러 생성자 제공
     MemberConstruct(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.grade = 50;
+        this(name, age, 50); // this()는 생성자 코드 첫줄에만 작성 가능
+        // MemberConstruct(String name, int age) 호출-> MemberConstruct(String name, int age, int grade)
     }
 
     MemberConstruct(String name, int age, int grade) {
