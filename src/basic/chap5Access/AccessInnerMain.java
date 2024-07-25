@@ -1,0 +1,20 @@
+package basic.chap5Access;
+
+public class AccessInnerMain {
+    public static void main(String[] args) {
+        AccessData ad = new AccessData();
+        // public 호출 가능
+        ad.publicField = 1;
+        ad.publicMethod();
+
+        // 같은 패키지 default 호출 가능
+        ad.defaultField = 2;
+        ad.defaultMethod();
+
+        // private 호출 불가
+//        ad.privateField = 3;
+//        ad.privateMethod();
+
+        ad.innerAccess();
+    }
+}
