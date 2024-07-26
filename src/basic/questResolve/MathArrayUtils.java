@@ -5,7 +5,7 @@ public class MathArrayUtils {
     //MathArrayUtils 은 객체를 생성하지 않고 사용해야 합니다.
     //누군가 실수로 MathArrayUtils 의 인스턴스를 생성하지 못하게 막으세요.
 
-    public MathArrayUtils() {}
+    private MathArrayUtils() {}
 
     // : 배열의 모든 요소를 더하여 합계를 반환합니다.
     public static int sum(int[] values) {
