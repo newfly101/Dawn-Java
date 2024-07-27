@@ -2,7 +2,7 @@ package basic.questResolve.extendsResolve;
 
 public class Album extends Item{
     //Album : 아티스트( artist )
-    String artist;
+    private String artist;
 
     //공통 속성: name , price
     public Album(String name, int price, String artist) {
@@ -10,6 +10,7 @@ public class Album extends Item{
         this.artist = artist;
     }
 
+    @Override
     public void print() {
         super.print();
         System.out.println("- 아티스트:" + artist);
