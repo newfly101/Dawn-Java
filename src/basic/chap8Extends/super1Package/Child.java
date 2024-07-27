@@ -1,4 +1,4 @@
-package basic.chap8Extends.superPackage;
+package basic.chap8Extends.super1Package;
 
 public class Child extends Parent {
     public String value = "child";
