@@ -11,10 +11,12 @@ public class StringEx6Resolve {
         // 코드 작성
         int count = 0;
         for (String a : str.split(" ")) {
-//            System.out.println(a);
-            if (key.equals(a)) {
+            if (a.indexOf(key) == 0) {
                 count++;
             }
+//            if (key.equals(a)) {
+//                count++;
+//            }
         }
         System.out.println("count: " + count);
     }
