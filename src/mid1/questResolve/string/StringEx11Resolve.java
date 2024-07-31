@@ -8,10 +8,7 @@ public class StringEx11Resolve {
     public static void main(String[] args) {
         String str = "Hello Java";
         // 코드 작성
-        StringBuilder sb = new StringBuilder();
-        String string = sb.append(str)
-                .reverse()
-                .toString();
+        String string = new StringBuilder(str).reverse().toString();
 
         System.out.println(string);
     }
