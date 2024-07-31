@@ -7,7 +7,8 @@ public class StringEx7Resolve {
      public static void main(String[] args) {
      String original = " Hello Java ";
      // 코드 작성
-         System.out.println(original.substring(1, original.length()-1));
+         System.out.println(original.trim());
+//         System.out.println(original.substring(1, original.length()-1));
      }
     //Hello Java
 }
