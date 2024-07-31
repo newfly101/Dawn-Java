@@ -7,8 +7,8 @@ public class StringEx9Resolve {
      public static void main(String[] args) {
      String email = "hello@example.com";
      // 코드 작성
-         System.out.println("ID: " + email.split("@", 2)[0]);
-         System.out.println("Domain: " + email.split("@", 2)[1]);
+         System.out.println("ID: " + email.split("@")[0]);
+         System.out.println("Domain: " + email.split("@")[1]);
      }
     //ID: hello
     //Domain: example.com
