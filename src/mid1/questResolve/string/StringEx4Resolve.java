@@ -8,8 +8,8 @@ public class StringEx4Resolve {
     public static void main(String[] args) {
         String str = "hello.txt";
         // 코드 작성
-        System.out.println("filename = " + str.substring(0, str.indexOf(".")));
-        System.out.println("extName = " + str.substring(str.indexOf(".")));
+        System.out.println("filename = " + str.substring(0, 5));
+        System.out.println("extName = " + str.substring(5));
     }
     //실행 결과 ```
     //filename = hello
